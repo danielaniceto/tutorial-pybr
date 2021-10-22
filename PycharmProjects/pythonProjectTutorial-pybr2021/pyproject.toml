@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonprojecttutorial-pybr2021"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Gustavo <danielgustavots@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+httpie = "^2.6.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
